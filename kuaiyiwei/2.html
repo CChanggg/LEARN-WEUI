@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="http://cdn.bootcss.com/weui/1.1.2/style/weui.min.css" rel="stylesheet">
+    <link href="http://cdn.bootcss.com/jquery-weui/1.0.1/css/jquery-weui.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://jqweui.com/dist/demos/css/demos.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            background-color: #F5F5F5;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .x {
+            color: #B9B9B9;
+            text-align: center;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="weui-tab">
+            <div class="weui-tab__bd">
+                <div id="tab1" class="weui-tab__bd-item weui-tab__bd-item--active">
+                    <div style="width:100%;background-color: #F5F5F5;">
+                        <span style="display:block;margin-left:15px; margin-top:20px;margin-bottom:10px;color:gray">群内服务</span>
+                    </div>
+                    <div class="weui-grids" style="background-color: white;">
+                        <a href="" class="weui-grid js_grid">
+                            <div class="weui-grid__icon">
+                                <img src="images/5.png" alt="">
+                            </div>
+                            <p class="weui-grid__label">
+                                群设置
+                            </p>
+                            <p class="x">管理您的群</p>
+                        </a>
+                        <a href="" class="weui-grid js_grid">
+                            <div class="weui-grid__icon">
+                                <img src="images/6.png" alt="">
+                            </div>
+                            <p class="weui-grid__label">
+                                成员管理
+                            </p>
+                            <p class="x">人员审核管理</p>
+                        </a>
+                        <a href="" class="weui-grid js_grid">
+                            <div class="weui-grid__icon">
+                                <img src="images/7.png" alt="">
+                            </div>
+                            <p class="weui-grid__label">
+                                群有圈
+                            </p>
+                            <p class="x">群成员分享信息</p>
+                        </a>
+                        <a href="" class="weui-grid js_grid">
+                            <div class="weui-grid__icon">
+                                <img src="images/8.png" alt="">
+                            </div>
+                            <p class="weui-grid__label">
+                                群人脉
+                            </p>
+                            <p class="x">与群友相互认识</p>
+                        </a>
+                        <a href="" class="weui-grid js_grid">
+                            <div class="weui-grid__icon">
+                                <img src="images/9.png" alt="">
+                            </div>
+                            <p class="weui-grid__label">
+                                活动
+                            </p>
+                            <p class="x">一起活动吧</p>
+                        </a>
+                        <a href="" class="weui-grid js_grid">
+                            <div class="weui-grid__icon">
+                                <img src="images/10.png" alt="">
+                            </div>
+                            <p class="weui-grid__label" style="color: #B9B9B9;">
+                                直播间
+                            </p>
+                            <p class="x">知识分享</p>
+                        </a>
+                        <a href="" class="weui-grid js_grid">
+                            <div class="weui-grid__icon">
+                                <img src="images/11.png" alt="">
+                            </div>
+                            <p class="weui-grid__label" style="color: #B9B9B9;">
+                                闪购
+                            </p>
+                            <p class="x">好东西一触即买</p>
+
+                        </a>
+                        <a href="" class="weui-grid js_grid">
+                            <div class="weui-grid__icon">
+                                <img src="images/12.png" alt="">
+                            </div>
+                            <p class="weui-grid__label" style="color: #B9B9B9;">
+                                众筹
+                            </p>
+                            <p class="x">聚沙成塔</p>
+                        </a>
+                        <a href="" class="weui-grid js_grid">
+                            <div class="weui-grid__icon">
+                                <img src="images/13.png" alt="">
+                            </div>
+                            <p class="weui-grid__label">
+                                更多
+                            </p>
+                            <p class="x">更多群内容</p>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="weui-tabbar">
+            <a href="javascript:;" class="weui-tabbar__item ">
+                <div class="weui-tabbar__icon">
+                    <img src="./images/1.png" alt="">
+                </div>
+                <p class="weui-tabbar__label">群友圈</p>
+            </a>
+            <a href="javascript:;" class="weui-tabbar__item">
+                <div class="weui-tabbar__icon">
+                    <img src="./images/2.png" alt="">
+                </div>
+                <p class="weui-tabbar__label">群人脉</p>
+            </a>
+            <a href="javascript:;" class="weui-tabbar__item weui-bar__item--on">
+                <div class="weui-tabbar__icon">
+                    <img src="./images/3.png" alt="">
+                </div>
+                <p class="weui-tabbar__label">发现</p>
+            </a>
+            <a href="javascript:;" class="weui-tabbar__item">
+                <div class="weui-tabbar__icon">
+                    <img src="./images/4.png" alt="">
+                </div>
+                <p class="weui-tabbar__label">我</p>
+            </a>
+        </div>
+    </div>
+    <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://jqweui.com/dist/lib/fastclick.js"></script>
+    <script>
+        // FastClick 让click事件响应更快
+        $(function() {
+            FastClick.attach(document.body);
+        });
+    </script>
+    <script src="http://cdn.bootcss.com/jquery-weui/1.0.1/js/jquery-weui.min.js"></script>
+</body>
+
+</html>
